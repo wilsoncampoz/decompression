@@ -189,6 +189,8 @@ th {
   padding: 4px 10px;
 }
 .btn:active {
+  top: 1px;
+  rigth: 1px;
   position: relative;
 }
 .btn-send {
