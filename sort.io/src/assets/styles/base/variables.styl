@@ -1,0 +1,33 @@
+//Colors
+
+brand-color = #F0DB4F
+color-default = #323232
+default-gray = #141414
+light-gray = #4B4623
+alert = #F0AD4E
+alert-border = #FF9600
+success = #5CB85C
+success-border = #066506
+
+//Fonts
+
+font-default = 18px
+line-height = 1.6em
+
+// Grids
+main-column = 9
+sidebar-column = 3
+
+if sidebar and sidebar isnt bottom
+  _sidebar-column = sidebar-column
+else
+  _sidebar-column = 0
+
+column-width = 80px
+gutter-width = 20px
+columns = main-column + _sidebar-column
+
+// Media queries
+mq-mobile = "screen and (max-width: 479px)"
+mq-tablet = "screen and (min-width: 480px) and (max-width: 767px)"
+mq-normal = "screen and (min-width: 768px)"
