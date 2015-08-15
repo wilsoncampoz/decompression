@@ -1,6 +1,5 @@
 /vendor
 /node_modules
-/src/assets/
 *.lock
 *.DS_Store
 *.swp
