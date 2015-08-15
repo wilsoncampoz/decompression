@@ -1,8 +1,11 @@
 function raffle(){
-  var shot = document.getElementById("shot").value.split(','),
+  var box = document.getElementById("sortBox"),
+      resultBox = document.getElementById("resultBox"),
+      shot = document.getElementById("shot").value.split(','),
       winn = shot[Math.floor(Math.random()*shot.length)];
 
-  console.log(winn);
+  resultBox.innerHTML = " ";
+  resultBox.innerHTML += "<p>" + winn + "</p>";
 };
 
 var sendToRaffle = document.getElementById("sendToRaffle");
